@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TopFruitOps | Login</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="login-card">
+    <h1>TopFruitOps</h1>
+    <p class="subtitle">Sign in to continue</p>
+    <form id="login-form">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required autocomplete="username" placeholder="Admin" />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required autocomplete="current-password" placeholder="Admin" />
+
+      <button type="submit">Log in</button>
+    </form>
+    <p id="feedback" class="feedback" role="alert" aria-live="polite"></p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
